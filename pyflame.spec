@@ -38,8 +38,8 @@ PY26_CFLAGS=-I/usr/include/python2.7 PY26_LIBS=-lpython2.7 ./configure
 %make_install
 
 %files
-%{_bindir}/*
-%{_mandir}/man1/pyflame.1*
+/usr/local/bin/*
+/usr/local/share/man/man1/pyflame.1*
 %doc README.md
 %license LICENSE
 
