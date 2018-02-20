@@ -16,8 +16,8 @@ BuildRequires: python-devel
 BuildRequires: python34-devel
 BuildRequires: python34-pytest
 %else
-BuildRequires: python2-devel
-BuildRequires: python2-pytest
+BuildRequires: python27-devel
+BuildRequires: python27-pytest
 %endif
 
 %description
