@@ -31,7 +31,7 @@ used as an alternative to, or in conjunction with, existing Python profilers.
 
 %build
 ./autogen.sh
-%configure
+PY26_CFLAGS=-I/usr/include/python2.7 PY26_LIBS=-lpython2.7 ./configure
 %make_build
 
 %install
