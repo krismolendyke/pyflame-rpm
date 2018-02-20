@@ -18,8 +18,6 @@ BuildRequires: python34-pytest
 %else
 BuildRequires: python2-devel
 BuildRequires: python2-pytest
-BuildRequires: python3-devel
-BuildRequires: python3-pytest
 %endif
 
 %description
